@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="netflix-icon.svg">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+<body>
+    <div class="top-container">
+        <img class="bg" src="bg.jpg" alt="background">
+        <div class="header-wrapper">
+                <img class="logo" src="netflix.svg" alt="Netflix">
+                <form action="signIn.html" method="post">
+                    <button  type="submit" class="btn-Sign-In">Sign In</button>
+                </form>
+        </div>
+        <div class="showcase-content">
+            <h1 class="heading">Unlimited movies, TV<br> shows and more.</h1>
+            <h2 class="sub-heading">Watch anywhere. Cancel anytime.</h2>
+            <h4 class="info">Ready to watch? Enter your email to create or restart your membership.</h4>
+            <form class="membership" method="POST">
+                <input type="email" placeholder="Email address">
+                <button type="submit">Get Started ></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="second-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text1">
+                    <h1 class="middle-heading">Enjoy on your TV.</h1>
+                    <h2 class="middle-sub-heading">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players<br> and more.</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tv-container">
+                        <img class="tv" src="tv.png" alt="TV">
+                        <video controls="controls autoplay"  autoplay muted loop playsinline width="365" height="400">
+                            <source src="video-tv-1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 text1">
+                    <h1 class="middle-heading">Download your programmes<br>to watch on the go.</h1>
+                    <h2 class="middle-sub-heading">Save your data and watch all your favourites offline.</h2>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <img class="phone" src="phone.jpg" alt="phone">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text1">
+                    <h1 class="middle-heading">Watch everywhere.</h1>
+                    <h2 class="middle-sub-heading">Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tv-container2">
+                        <img class="tv" src="tv2.png" alt="TV2">
+                        <video controls="controls autoplay"  autoplay muted loop playsinline width="300" height="400">
+                            <source src="video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="questions">
+        <div class="faq_head">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+        <div class="collapsible-menu">
+            <button type="button" class="collapsible">
+                <h3>
+                    What is Netflix?
+                </h3>
+                <img src="plus.svg" class="expand_icon">
+            </button>
+            <div class="content">
+                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.
+                </p><br>
+
+                <p>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+        </div>
+        <div class="collapsible-menu">
+            <button type="button" class="collapsible">
+                <h3>
+                    How much does Netflix cost?
+                </h3>
+                <img src="plus.svg" class="expand_icon">
+            </button>
+            <div class="content">
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                    monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.
+                </p>
+            </div>
+        </div>
+        <div class="collapsible-menu">
+            <button type="button" class="collapsible">
+                <h3>
+                    Where can I watch?
+                </h3>
+                <img src="plus.svg" class="expand_icon">
+            </button>
+            <div class="content">
+                <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to
+                    watch instantly on the web at netflix.com from your personal computer or on any internet-connected
+                    device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media
+                    players and game consoles.
+                </p><br>
+
+                <p>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                    watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                </p>
+            </div>
+        </div>
+        <div class="collapsible-menu">
+            <button type="button" class="collapsible">
+                <h3>
+                    How do I cancel?
+                </h3>
+                <img src="plus.svg" class="expand_icon">
+            </button>
+            <div class="content">
+                <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                </p>
+            </div>
+        </div>
+        <div class="collapsible-menu">
+            <button type="button" class="collapsible">
+                <h3>
+                    What can I watch on Netflix?
+                </h3>
+                <img src="plus.svg" class="expand_icon">
+            </button>
+            <div class="content">
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                    Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </div>
+        </div>
+        <h4 class="info">Ready to watch? Enter your email to create or restart your membership.</h4>
+            <form class="membership" method="POST">
+                <input type="email" placeholder="Email address">
+                <button type="submit">Get Started ></button>
+            </form>
+    </section>
+
+    <footer>
+        <p>Questions? Contact us.</p>
+        <ul class="footer-elements">
+            <li class="footer-element">
+                <a href="#"><span>FAQ</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Help Centre</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Account</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Media Centre</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Investor Relations</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Jobs</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Ways to Watch</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Terms of Use</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Privacy</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Cookie Preferences</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Corporate Information</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Contact Us</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Speed Test</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Legal Notices</span></a>
+            </li>
+            <li class="footer-element">
+                <a href="#"><span>Netflix Originals</span></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
